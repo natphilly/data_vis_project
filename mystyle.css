@@ -1,0 +1,184 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+    body {
+        background-color: #ddd;
+        font-family:'Roboto',sans-serif;
+        margin:0;
+        padding:0;
+    }
+
+    #page-top{
+      background-color: #ddd;
+    }
+
+    header {
+      font-family: 'Roboto',sans-serif;
+      font-size: 60px;
+      text-align: center;
+      color: #111;
+      margin-bottom: 25px;
+      background-color: #ddd;
+
+    }
+
+    .lefty{
+      float:left;
+    }
+
+    .righty{
+      float:right;
+      padding-left:300px;
+    }
+
+    header p{
+      display:inline;
+    }
+
+    header a {
+        background-color: #ddd;
+        color: #555;
+        text-decoration: none;
+        padding: 0 3px 0 3px;
+    }
+
+    header a:hover {
+        background-color: #555;
+        color: #ddd;
+        text-decoration: underline;
+    }
+
+    #wheelDiv {
+        height: 900px;
+        width: 800px;
+        margin: auto;
+    }
+
+    #wheelDiv>svg {
+        height: 100%;
+        width: 100%;
+    }
+
+    @media (max-width: 800px) {
+        #wheelDiv {
+            height: 800px;
+            width: 800px;
+        }
+    }
+
+    @media (max-width: 800px) {
+        #wheelDiv {
+            height: 800px;
+            width: 800px;
+        }
+    }
+
+    section{
+      height: 750px;
+      width:100%;
+
+    }
+
+    section div p{
+      font-size: 25px;
+    }
+
+    h1{
+      font-size: 50px;
+      text-align: left;
+      padding-left: 20px;
+    }
+
+    #emissions{
+      color:#F0ECEC;
+      background-color: #0097A7;
+    }
+
+    #cost{
+      color:white;
+      background-color:#0097A7;
+    }
+
+    .hleft{
+      float:left;
+      padding-left:120px;
+    }
+
+    .hright{
+      float:right;
+      padding-right:120px;
+    }
+
+    h3{
+      font-size: 45px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .slide_1{
+      display: left;
+    }
+
+    .slide_2{
+      display: center;
+    }
+    .slide_3{
+      display: center;
+    }
+    .ps p {
+      font-size: 45px;
+      padding-left:10px;
+    }
+/*
+    #piemenu{
+      background-image: url("tes.jpg");
+    }
+*/
+    /* Insert generated CSS code from here */
+    #piemenu > svg { width: 100%; height: 100%; }
+    #piemenu { height: 800px; width: 710px; margin:auto; }
+    @media (max-width: 650px) { #piemenu { height: 850px; width: 650px; } }
+
+    [class|=wheelnav-piemenu-slice-basic] { fill: #00838F; stroke: none; }
+    [class|=wheelnav-piemenu-slice-selected] { fill: #0097A7; stroke: none; }
+    [class|=wheelnav-piemenu-slice-hover] { fill: #00ACC1; stroke: none; fill-opacity: 0.77; cursor: pointer; }
+
+    [class|=wheelnav-piemenu-title-basic] { fill:  #E8EAF6; stroke: none; }
+    [class|=wheelnav-piemenu-title-selected] { fill: #E8EAF6; ; stroke: none; }
+    [class|=wheelnav-piemenu-title-hover] { fill:  #E8EAF6; stroke: none; cursor: pointer; }
+    [class|=wheelnav-piemenu-title] > tspan { font-family: 'Open Sans', Charcoal, sans-serif; font-size: 38px; }
+
+    .wheelnav-piemenu-spreader-in,
+    .wheelnav-piemenu-spreader-out { fill: #444; stroke: #444; stroke-width: 2; cursor: pointer; }
+    .wheelnav-piemenu-spreadertitle-in,
+    .wheelnav-piemenu-spreadertitle-out { fill: #eee; stroke: #444; cursor: pointer; }
+    .wheelnav-piemenu-marker { stroke: #444; stroke-width: 2; }
+  /*
+  button img{
+    margin:0;
+    border: none;
+    background-color: #0097A7;
+    padding-left: 683px;
+    display: center;
+    padding-top:10px;
+  }
+
+  button{
+    background-color: #0097A7;
+    border:none;
+    margin:0;
+    padding: 0;
+  }
+
+  #button-up-white img{
+    padding-top:10px;
+    background-color: #ddd;
+    border: none;
+    margin:0;
+    padding: 0;
+    padding-left: 683px;
+  }
+  */
+
+</style>
